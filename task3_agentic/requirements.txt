@@ -1,0 +1,19 @@
+# Task 3 - Agentic Workflows (tested with Python 3.11-3.13)
+langgraph>=1.0,<2
+langchain-core>=1.0,<2
+langchain-openai>=1.0,<2
+pydantic>=2.7,<3
+pandas>=2.1
+numpy>=1.26
+yfinance>=0.2.54
+feedparser>=6.0
+ddgs>=9.0
+tenacity>=8.2
+python-dotenv>=1.0
+
+# Tests
+pytest>=8.0
+
+# Optional: trace dashboard (bonus) and LangSmith tracing (bonus, env-var driven)
+streamlit>=1.35
+langsmith>=0.3

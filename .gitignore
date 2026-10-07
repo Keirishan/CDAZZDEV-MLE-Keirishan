@@ -1,0 +1,25 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Runtime cache (briefs are regenerated); keep the folder
+task3_agentic/cache/*.json
+task3_agentic/cache/*.tmp
+!task3_agentic/cache/.gitkeep
+
+# NOTE: task3_agentic/logs/agent_trace.jsonl must be committed (required deliverable).
+
+# OS / editors
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.idea/
